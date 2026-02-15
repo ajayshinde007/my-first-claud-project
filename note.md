@@ -4,13 +4,18 @@ Generate Code with AI
   Configuration 
   Base Usage
 
-claude
 
 /init
 /clear
 /context
 /usage
+/rewind
 
+
+Settings
+ - 
+
+docker sandbox run claude
 
 prompt
 

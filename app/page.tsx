@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Counter from "./Counter";
 
 export default function Home() {
   return (
@@ -12,7 +13,13 @@ export default function Home() {
             height={64}
           />
           <h1 className="text-4xl font-bold">Hello Claude</h1>
+          <Counter />
         </div>
+        <div className="max-w-2xl px-6">
+          <div className="flex items-center gap-4 mb-8">
+          </div>
+        </div>
+
         <h2 className="text-2xl font-semibold mb-4">
           Advantages of Using Claude Code
         </h2>
