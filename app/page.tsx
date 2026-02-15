@@ -1,8 +1,18 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center">
       <div className="max-w-2xl px-6">
-        <h1 className="text-4xl font-bold mb-8">Hello World</h1>
+        <div className="flex items-center gap-4 mb-8">
+          <Image
+            src="/claude-code.svg"
+            alt="Claude Code logo"
+            width={64}
+            height={64}
+          />
+          <h1 className="text-4xl font-bold">Hello Claude</h1>
+        </div>
         <h2 className="text-2xl font-semibold mb-4">
           Advantages of Using Claude Code
         </h2>
